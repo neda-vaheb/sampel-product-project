@@ -20,3 +20,37 @@ margin: auto;
     color: white;
 
 }
+input{
+    width: 300px;
+    font-size: 1.2rem;
+    color: rgb(187, 69, 146);
+    border: 1px solid rgb(187, 69, 146);
+    padding: 5px;
+    border-radius: 5px;
+    outline: none;
+    background-color: white;
+    margin: 40px 0;
+    margin-right: 10px;
+}
+button{
+    width: 100px;
+    height: 35px;
+    color:white;
+    padding: 5px 10px;
+    background-color:  rgb(187, 69, 146);
+    border: none;
+    margin-right:10px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+}
+
+ 
+ 
+ .selected{
+    background-color: white;
+    color: rgb(187, 69, 146);
+    border: 1px solid rgb(187, 69, 146);
+ }
+ 
