@@ -11,7 +11,21 @@
         <header class="header">
 			<h2>Botostart | product page </h2>
          </header>
-         
+         <main>
+            <div id="search">
+				<input id="search-input" placeholder="search name" type="text">
+				<div>
+					<button class="filter selected" data-filter="all"> All </button>
+					<button class="filter" data-filter="tech"> Tech </button>
+					<button class="filter" data-filter="clothing"> Clothing </button>
+					<button class="filter" data-filter="health"> Health </button>
+				</div>
+				<div id="search-price">
+					<input placeholder="search the price" type="number">
+					<button class="search-btn">search</button>
+				</div>
+			</div>
+         </main>
     </div>
     <script src="app.js"></script>
 </body>
