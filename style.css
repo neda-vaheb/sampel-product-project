@@ -89,4 +89,32 @@ button{
     border-radius: 10px;
     margin-bottom: 0px;
 }
- 
+@media(max-width: 1000px) {
+    body{
+        width: calc(100% - 3rem);
+        margin: auto;
+    }
+   #search{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+   }
+   #products{
+    justify-content: center;
+   }
+   .product-item{
+    margin: 10px;
+   }
+}
+@media(max-width: 500px) {
+    body{
+        width: calc(100% - 1rem);
+        margin: auto;
+    }
+    .filter{
+        margin-bottom: 10px;
+    } 
+    
+       
+}
